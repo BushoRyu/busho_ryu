@@ -222,10 +222,10 @@ input, textarea {
 [value="All"]:checked ~ [data-category] {
   display: block;
 }
-[value="YouTube"]:checked ~ .contents-item:not([data-category~="YouTube"]), 
-[value="Blog"]:checked ~ .contents-item:not([data-category~="Blog"]),
-[value="Music"]:checked ~ .contents-item:not([data-category~="Music"]),
-[value="Game"]:checked ~ .contents-item:not([data-category~="Game"])
+[value="YouTube"]:checked ~ .infomation .contents-item:not([data-category~="YouTube"]), 
+[value="Blog"]:checked ~ .infomation .contents-item:not([data-category~="Blog"]),
+[value="Music"]:checked ~ .infomation .contents-item:not([data-category~="Music"]),
+[value="Game"]:checked ~ .infomation .contents-item:not([data-category~="Game"])
 {
   display: none;
 }
